@@ -33,7 +33,7 @@ The [excess kurtosis][kurtosis] for a [Weibull][weibull-distribution] random var
 <!-- <equation class="equation" label="eq:weibull_kurtosis" align="center" raw="\operatorname{Kurt}\left( X \right) = \frac{-6\Gamma_1^4+12\Gamma_1^2\Gamma_2-3\Gamma_2^2 -4\Gamma_1\Gamma_3+\Gamma_4}{[\Gamma_2-\Gamma_1^2]^2}" alt="Excess kurtosis for a Weibull distribution."> -->
 
 ```math
-\operatorname{Kurt}\left( X \right) = \frac{-6\Gamma_1^4+12\Gamma_1^2\Gamma_2-3\Gamma_2^2 -4\Gamma_1\Gamma_3+\Gamma_4}{[\Gamma_2-\Gamma_1^2]^2}
+\mathop{\mathrm{Kurt}}\left( X \right) = \frac{-6\Gamma_1^4+12\Gamma_1^2\Gamma_2-3\Gamma_2^2 -4\Gamma_1\Gamma_3+\Gamma_4}{[\Gamma_2-\Gamma_1^2]^2}
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\operatorname{Kurt}\left( X \right) = \frac{-6\Gamma_1^4+12\Gamma_1^2\Gamma_2-3\Gamma_2^2 -4\Gamma_1\Gamma_3+\Gamma_4}{[\Gamma_2-\Gamma_1^2]^2}" data-equation="eq:weibull_kurtosis">
@@ -51,14 +51,30 @@ where `Γ_i = Γ( 1 + i / k )`.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-weibull-kurtosis
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-kurtosis@esm/index.mjs';
+var kurtosis = require( '@stdlib/stats-base-dists-weibull-kurtosis' );
 ```
 
 #### kurtosis( k, lambda )
@@ -126,15 +142,10 @@ v = kurtosis( 1.0, -1.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-kurtosis@esm/index.mjs';
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var EPS = require( '@stdlib/constants-float64-eps' );
+var kurtosis = require( '@stdlib/stats-base-dists-weibull-kurtosis' );
 
 var lambda;
 var k;
@@ -147,10 +158,6 @@ for ( i = 0; i < 10; i++ ) {
     v = kurtosis( k, lambda );
     console.log( 'k: %d, λ: %d, Kurt(X;k,λ): %d', k.toFixed( 4 ), lambda.toFixed( 4 ), v.toFixed( 4 ) );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -182,7 +189,7 @@ for ( i = 0; i < 10; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
