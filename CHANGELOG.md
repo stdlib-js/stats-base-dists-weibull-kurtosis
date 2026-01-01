@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-21)
+## Unreleased (2026-01-01)
 
 <section class="features">
 
@@ -34,9 +34,12 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`edccce1`](https://github.com/stdlib-js/stdlib/commit/edccce1444f24145380aa51e8439f95928bda403) - **docs:** replace manual `for` loop in examples [(#9479)](https://github.com/stdlib-js/stdlib/pull/9479) _(by Harsh Yadav)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`a7e25d0`](https://github.com/stdlib-js/stdlib/commit/a7e25d09f492c669abb1665c73d9e906c8c22f85) - **chore:** clean-up and fix test tolerances _(by Athan Reines)_
 -   [`1905832`](https://github.com/stdlib-js/stdlib/commit/19058322e8051dc8352ee03df2bba05c07969aa2) - **feat:** add C implementation for `stats/base/dists/weibull/kurtosis` [(#4068)](https://github.com/stdlib-js/stdlib/pull/4068) _(by Gururaj Gurram, Philipp Burckhardt, stdlib-bot)_
--   [`1ebcfd6`](https://github.com/stdlib-js/stdlib/commit/1ebcfd618beaf055a7097c89f3794d507fd14947) - **bench:** refactor random number generation in `stats/base/dists/weibull` [(#5342)](https://github.com/stdlib-js/stdlib/pull/5342) _(by Gaurav)_
+-   [`1ebcfd6`](https://github.com/stdlib-js/stdlib/commit/1ebcfd618beaf055a7097c89f3794d507fd14947) - **bench:** refactor random number generation in `stats/base/dists/weibull` [(#5342)](https://github.com/stdlib-js/stdlib/pull/5342) _(by Gaurav Jadhav)_
 -   [`f75a0ce`](https://github.com/stdlib-js/stdlib/commit/f75a0cef6a3112b166dba04c13bada9763cec350) - **chore:** use excess kurtosis consistently _(by Philipp Burckhardt)_
 
 </details>
@@ -49,11 +52,12 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   Gaurav
+-   Gaurav Jadhav
 -   Gururaj Gurram
+-   Harsh Yadav
 -   Philipp Burckhardt
 
 </section>
