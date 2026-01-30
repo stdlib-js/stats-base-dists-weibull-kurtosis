@@ -69,7 +69,7 @@ where `Γ_i = Γ( 1 + i / k )`.
 ## Usage
 
 ```javascript
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-kurtosis@esm/index.mjs';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-kurtosis@v0.3.0-esm/index.mjs';
 ```
 
 #### kurtosis( k, lambda )
@@ -146,7 +146,7 @@ v = kurtosis( 1.0, -1.0 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-kurtosis@esm/index.mjs';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-kurtosis@v0.3.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
