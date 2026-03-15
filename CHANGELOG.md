@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-23)
+## Unreleased (2026-03-15)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`0b92622`](https://github.com/stdlib-js/stdlib/commit/0b92622d558b78f814f4b9d6cc646c33e7d109c9) - **docs:** fix C example codeblock in `stats/base/dists/weibull/kurtosis/README.md` [(#10939)](https://github.com/stdlib-js/stdlib/pull/10939) _(by Om-A-osc)_
 -   [`f38e8a7`](https://github.com/stdlib-js/stdlib/commit/f38e8a7b433e0e9888eb57c83f4374073089ad85) - **docs:** clean-up parameters in Julia fixtures scripts _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Om-A-osc
 -   Philipp Burckhardt
 
 </section>
