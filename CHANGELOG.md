@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-09-24)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`57344d1`](https://github.com/stdlib-js/stdlib/commit/57344d1f1e98fdb14b705d83b6127dbb9173bbbe) - **test:** migrate `stats/base/dists/weibull/kurtosis` to ULP-based assertions [(#15516)](https://github.com/stdlib-js/stdlib/pull/15516) _(by Athan Reines)_
 -   [`0b92622`](https://github.com/stdlib-js/stdlib/commit/0b92622d558b78f814f4b9d6cc646c33e7d109c9) - **docs:** fix C example codeblock in `stats/base/dists/weibull/kurtosis/README.md` [(#10939)](https://github.com/stdlib-js/stdlib/pull/10939) _(by Om-A-osc)_
 -   [`f38e8a7`](https://github.com/stdlib-js/stdlib/commit/f38e8a7b433e0e9888eb57c83f4374073089ad85) - **docs:** clean-up parameters in Julia fixtures scripts _(by Philipp Burckhardt)_
 
@@ -25,8 +26,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Om-A-osc
 -   Philipp Burckhardt
 
